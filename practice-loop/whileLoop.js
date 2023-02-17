@@ -68,11 +68,25 @@
 
 // // Task-07: Run a loop from 30 to 86. This loop will be stopped if the values get higher than 44
 
-let num = 30;
-while(num <= 86) {
-    console.log(num); 
-    if (num > 43) {
-        break;
+// let num = 30;
+// while(num <= 86) {
+//     console.log(num); 
+//     if (num > 43) {
+//         break;
+//     }
+//     num = num + 1;
+// }
+
+
+
+// // Task-08: Write the price of the books that you have. Display the prices if the prices are lower than 200
+
+let books = [190, 200, 350, 150, 160, 400, 256, 120]
+let i = 0;
+while(i < books.length) {
+    let book = books[i];
+    if(book < 200){
+        console.log(book);
     }
-    num = num + 1;
+    i = i + 1;
 }

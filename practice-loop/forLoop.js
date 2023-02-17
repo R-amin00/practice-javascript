@@ -70,14 +70,21 @@
 
 // // Task-08: Write the price of the books that you have. Display the prices if the prices are lower than 200
 
-
-let book1 = 160;
-let book2 =400;
-let book3 = 200;
-if(book2 < book1 && book3 < book2) {
-    console.log(book2);
-}else if(book3 > book2 && book3 > book1){
-    console.log(book3);
-}else{
-    console.log(book1);
+let books = [190, 200, 350, 150, 160, 400, 256, 120]
+for (let i = 0; i < books.length; i++) {
+    let book = books[i];
+    if (book < 200) {
+        console.log(book)
+    }
+    
 }
+// let book1 = 160;
+// let book2 =400;
+// let book3 = 200;
+// if(book2 < book1 && book3 < book2) {
+//     console.log(book2);
+// }else if(book3 > book2 && book3 > book1){
+//     console.log(book3);
+// }else{
+//     console.log(book1);
+// }
