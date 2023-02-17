@@ -1,6 +1,6 @@
 //Task-01: Write the programme to sum those number which are divideable by 3 and 5 and it will be continue upto 100
 
-// for (let i = 1; i <= 50; i++) {
+// for (let i = 1; i <= 100; i++) {
 //     if(i%3==0 && i% 5 == 0){
 //         sum = sum + i;
 //         // document.write(sum);
@@ -70,16 +70,10 @@
 
 // // Task-08: Write the price of the books that you have. Display the prices if the prices are lower than 200
 
-// let book1 = 250;
-// let book2 = 200;
-// let book3 = 300;
-// let book4 = 170;
-// if(book1 < book2){
-//     console.log("I haven't much money to buy 'Eloquent JavaScript' !")
-// }else if(book2 < book3){
-//     console.log("I have much money to buy 'A Smarter Way to Learn JavaScript' !")
-// }else if(book3 > book4){
-//     console.log("I haven't so much money to buy 'JavaScript and jQuery' !")
-// }else {
-//     console.log("I have much money to buy 'JavaScript: The Definitive Guide' !")
-// }
+let book1 = 250;
+let book2 = 150;
+if(book1 < book2 ){
+    console.log(book1)
+}else{
+    console.log(book2)
+}
